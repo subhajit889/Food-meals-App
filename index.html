@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Favourite Meal </title>
+    <!-- linking  fontawasome -->
+    <script src="https://kit.fontawesome.com/86dd55b3e9.js" crossorigin="anonymous" defer></script>
+    <!-- Linking Stylesheet -->
+    <link rel="stylesheet" href="CSS\style.css">
+</head>
+
+<body>
+
+    <!-- this is container contain the All the data in this page  -->
+    <div id="container">
+        <!-- this is header conatin logo and input and search area -->
+        <section id="header">
+            <div id="logo-img">
+                <img src="Assets\meal logo.png">
+                <h1>Search Your Meal</h1>
+            </div>
+
+            <!-- this is input area for searching meals -->
+            <div id="input-area">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <!--  -->
+                <input id="meal-search" type="text" placeholder="Search Your Meal here...">
+        
+                <button class="search-btn" type="submit">Search</button>
+                <!-- link for favourite section -->
+                <a href="./fav.html" class="fav-btn">Favourites</a>
+            </div>
+        </section>
+
+        <!-- Searched meal list show here  -->
+        <section id="meal-area">
+
+            <!-- here we are adding the list of all elemant via Java Script  -->
+            <h2 class="item-heading">Your Search Items are showing below</h2>
+            <div class="meal-list">
+        </section>
+    </div>
+
+    <!-- adding the js file of this page -->
+    <script src="Script\index.js"></script>
+    <script src="Script\favbutton.js"></script>
+
+</body>
+
+</html>
